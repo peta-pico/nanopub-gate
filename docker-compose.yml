@@ -3,7 +3,7 @@ services:
   nanopubgate:
     build: .
     environment:
-      - NPG_TYPES="http://example.com/typeA http://example.com/typeB"
-      - NPG_POST_NANOPUBS_TO=http://example.com/sparql-endpoint-url
+      - NPG_URI_PATTERN="http://example.com/A http://example.com/B"
+      - NPG_ENDPOINT_URL=http://example.com/sparql-endpoint-url
     ports:
       - 8080:8080
