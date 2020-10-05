@@ -7,7 +7,7 @@
 
   <servlet>
     <servlet-name>nanopub-gate</servlet-name>
-    <servlet-class>org.petapico.nanopubgate.NanopubServlet</servlet-class>
+    <servlet-class>org.petapico.nanopubgate.NanopubGateServlet</servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
 
