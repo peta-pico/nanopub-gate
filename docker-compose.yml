@@ -3,7 +3,7 @@ services:
   nanopubgate:
     build: .
     environment:
-      - NPG_URI_PATTERN="http://example.com/A http://example.com/B"
+      - NPG_URI_PATTERN=http://example.com/A\ http://example.com/B
       - NPG_ENDPOINT_URL=http://example.com/sparql-endpoint-url
     ports:
       - 8080:8080
